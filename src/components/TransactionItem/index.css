@@ -24,3 +24,31 @@
   height: 20px;
   margin-right: 10px;
 }
+@media screen and (max-width: 768px) {
+  .list-item {
+    padding: 0;
+    width: 100%;
+    display: flex;
+  }
+  .grid-value {
+    font-size: 13px;
+    color: hsl(215, 19%, 35%);
+    /* font-weight: 600; */
+    padding: 5px 15px;
+    width: 30%;
+    margin: 0;
+    text-align: left;
+    border-bottom: 1px solid #d7dfe9;
+  }
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-left: auto;
+  }
+  .delete-icon {
+    height: 20px;
+    margin-right: 10px;
+  }
+}

@@ -109,7 +109,7 @@ class MoneyManager extends Component {
     return (
       <div className="bg-container">
         <div className="first-container">
-          <h1 className="first-container-heading">Hi, Richard</h1>
+          <h1 className="first-container-heading">Hi, User</h1>
           <p className="first-container-para">
             Welcome back to your
             <span className="first-container-part-text">Money Manager</span>
